@@ -1,7 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:signin_example/my_custom_form.dart';
 
-void main() => runApp(MyCustomForm());
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    final appTitle = 'Form Validation Demo';
+
+    return MaterialApp(
+      title: appTitle,
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text(appTitle),
+        ),
+        body: MyCustomForm(),
+      ),
+    );
+  }
+}
 
 class SignUpApp extends StatelessWidget {
   @override
