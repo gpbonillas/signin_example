@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:signin_example/my_custom_form.dart';
 
-void main() => runApp(SignUpApp());
+void main() => runApp(MyCustomForm());
 
 class SignUpApp extends StatelessWidget {
   @override
