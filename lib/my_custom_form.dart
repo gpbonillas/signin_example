@@ -32,6 +32,9 @@ class _MyCustomFormState extends State<MyCustomForm> {
               }
               return null;
             },
+            decoration: InputDecoration(
+                border: UnderlineInputBorder(),
+                labelText: 'Enter your username'),
           ),
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 16.0),

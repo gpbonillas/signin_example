@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:signin_example/my_custom_form.dart';
+// import 'package:signin_example/my_custom_form.dart';
+import 'package:signin_example/my_custom_form2.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text(appTitle),
         ),
-        body: MyCustomForm(),
+        body: MyCustomForm2(),
       ),
     );
   }
